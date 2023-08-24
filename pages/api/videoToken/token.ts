@@ -19,7 +19,6 @@ const config = {
 };
 
 const generateToken = (config: Config) => {
-  console.log("====== twilio conifg", config);
   return new AccessToken(
     config.twilio.accountSid,
     config.twilio.apiKey,
